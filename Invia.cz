@@ -1,0 +1,12 @@
+@-moz-document domain("invia.cz") {
+#review-list-wrap
+p.hide {
+ display: block
+}
+
+#review-list-wrap
+a.more {
+    
+}
+
+}
