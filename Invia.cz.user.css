@@ -1,3 +1,12 @@
+/* ==UserStyle==
+@name         Invia zobraz skryté části recenzí
+@description  Zobrazí rovnou celé recenze na webu Invia.cz
+@namespace    https://github.com/kibeb/Styles/Invia
+@author       https://github.com/kibeb
+@version      0.1.0
+@homepageURL  https://github.com/kibeb/Styles
+==/UserStyle== */
+
 @-moz-document domain("invia.cz") {
 #review-list-wrap
 p.hide {
