@@ -19,4 +19,6 @@ Some of my styles I use with a Stylus app.
 
 Here: https://chrome.google.com/webstore/detail/stylus/clngdbkpkpeebahjckkjfobafhncgmne
 
-Don't use <s>Stylish</s>, it's poisoned.
+[More info on Stylus and links to install in other browsers](https://add0n.com/stylus.html).
+
+BTW, don't use <s>Stylish</s>, it's poisoned.
