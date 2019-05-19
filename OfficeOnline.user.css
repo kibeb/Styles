@@ -1,0 +1,7 @@
+.ewa-root-ltr .AppHeaderPanel, .ewa-root-rtl .AppHeaderPanel {
+ top: -13px;
+ height: 38px;
+}
+.ewa-root-ltr div.msospAFrameContainer.cui-exth, .ewa-root-rtl div.msospAFrameContainer.cui-exth {
+ top: 24px;
+}
