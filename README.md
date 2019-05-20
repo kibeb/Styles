@@ -4,9 +4,11 @@ Some of my styles I use with a Stylus app.
 
 ## One-click (actually two-click) UserStyle install
 
-[![Install directly with Stylus](https://img.shields.io/badge/Install%20Invia.cz%20UserStyle%20directly%20with-Stylus-238b8b.svg)](https://github.com/kibeb/Styles/raw/master/Invia.cz.user.css)
+(prerequisite: [Stylus](#stylus----the-app) installed in your browser)
 
-(prerequisite: [Stylus](#stylus----the-app) installed)
+[![Install directly with Stylus](https://img.shields.io/badge/Auto%20Install%20UserStyle%20-Invia.cz-238b8b.svg)](https://kibeb.github.io/Styles/Invia.cz.user.css)
+
+[![Install directly with Stylus](https://img.shields.io/badge/Auto%20Install%20UserStyle%20-OfficeOnline-238b8b.svg)](https://kibeb.github.io/Styles/OfficeOnline.user.css)
 
 ## How to install a userstyle manually
 
@@ -17,7 +19,7 @@ Some of my styles I use with a Stylus app.
 
 ## Stylus -- the app
 
-Here: https://chrome.google.com/webstore/detail/stylus/clngdbkpkpeebahjckkjfobafhncgmne
+Install Stylus in Chrome: https://chrome.google.com/webstore/detail/stylus/clngdbkpkpeebahjckkjfobafhncgmne
 
 [More info on Stylus and links to install in other browsers](https://add0n.com/stylus.html).
 
