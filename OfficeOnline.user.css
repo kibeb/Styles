@@ -1,5 +1,5 @@
 /* ==UserStyle==
-@name         Slim the Office Online Green Bar
+@name         Slim Office Online Green Bar
 @description  Slim the Green Bar at the top of Office Online web apps
 @namespace    https://github.com/kibeb/Styles/OfficeOnline
 @author       https://github.com/kibeb
@@ -7,14 +7,14 @@
 @homepageURL  https://github.com/kibeb/Styles
 ==/UserStyle== */
 
-@-moz-document domain("onedrive.live.com") {
+@-moz-document domain("officeapps.live.com") {
 
 .ewa-root-ltr .AppHeaderPanel, .ewa-root-rtl .AppHeaderPanel {
- top: -13px;
- height: 38px;
+ top: -15px;
+ height: 35px;
 }
 .ewa-root-ltr div.msospAFrameContainer.cui-exth, .ewa-root-rtl div.msospAFrameContainer.cui-exth {
- top: 24px;
+ top: 20px;
 }
 
 }
