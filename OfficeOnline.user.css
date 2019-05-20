@@ -3,8 +3,10 @@
 @description  Slim the Green Bar at the top of Office Online web apps
 @namespace    https://github.com/kibeb/Styles/OfficeOnline
 @author       https://github.com/kibeb
-@version      1.0.0
+@version      1.0.1
 @homepageURL  https://github.com/kibeb/Styles
+@updateURL    https://kibeb.github.io/Styles/OfficeOnline.user.css
+@license      MIT
 ==/UserStyle== */
 
 @-moz-document domain("officeapps.live.com"), domain("onedrive.live.com") {
