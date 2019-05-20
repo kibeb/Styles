@@ -1,6 +1,8 @@
 # Styles
 
-Some of my styles I use with a Stylus app.
+[![license](https://img.shields.io/github/license/kibeb/Styles.svg)](https://github.com/kibeb/Styles/blob/master/LICENSE)
+
+Some of my styles I use with an user style sheet app.
 
 ## One-click (actually two-click) UserStyle install
 
