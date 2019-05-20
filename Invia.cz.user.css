@@ -3,8 +3,10 @@
 @description  Zobrazí rovnou celé recenze na webu Invia.cz
 @namespace    https://github.com/kibeb/Styles/Invia
 @author       https://github.com/kibeb
-@version      0.1.0
+@version      0.1.1
 @homepageURL  https://github.com/kibeb/Styles
+@updateURL    https://kibeb.github.io/Styles/Invia.cz.user.css
+@license      MIT
 ==/UserStyle== */
 
 @-moz-document domain("invia.cz") {
