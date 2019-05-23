@@ -1,9 +1,9 @@
 /* ==UserStyle==
-@name         Slim Office Online Green Bar
-@description  Slim the Green Bar at the top of Office Online web apps
+@name         Slim Office Online controls
+@description  Slim the Green Bar and other controls of Office Online web apps
 @namespace    https://github.com/kibeb/Styles/OfficeOnline
 @author       https://github.com/kibeb
-@version      1.0.1
+@version      1.1.0
 @homepageURL  https://github.com/kibeb/Styles
 @updateURL    https://kibeb.github.io/Styles/OfficeOnline.user.css
 @license      MIT
@@ -11,12 +11,56 @@
 
 @-moz-document domain("officeapps.live.com"), domain("onedrive.live.com") {
 
-.ewa-root-ltr .AppHeaderPanel, .ewa-root-rtl .AppHeaderPanel {
+/* Slim Green Bar */
+.ewa-root-ltr .AppHeaderPanel, .ewa-root-rtl .AppHeaderPanel, .AppHeaderPanel {
  top: -15px;
- height: 35px;
+ height: 20px;
+ overflow: visible;
 }
 .ewa-root-ltr div.msospAFrameContainer.cui-exth, .ewa-root-rtl div.msospAFrameContainer.cui-exth {
  top: 20px;
 }
 
+/* Excel: Smaller Ribbon Labels */
+.MLRVisualRefresh .cui-topBar2 {
+ font-size: 12px;
+}
+.cui-exth .cui-jewel-container, .cui-exth .cui-tts, .cui-exth .cui-tts-scale-1, .cui-exth .cui-tts-scale-2 {
+ height: 24px;
+}
+.cui-exth .cui-tt, .cui-exth .cui-cg {
+ height: 24px;
+}
+.cui-exth .cui-topBar2 {
+ height: 24px;
+}
+.cui-topBar2 .cui-ctl-medium.DocumentActionButton, .cui-topBar2 .cui-ctl-medium.CommentsButton, .cui-topBar2 .cui-ctl-medium.ChangesButton {
+ height: 22px !important;
+ margin: 1px 5px;
+}
+
+/* Excel: Merge Tab Bar with Status Bar */
+#m_excelWebRenderer_ewaCtl_clientAreaDiv .cui-toolbar-toolbar {
+  width: auto;
+}
+#m_excelWebRenderer_ewaCtl_clientAreaDiv .WACStatusBarContainer {
+ width: 50%;
+ right: 0;
+}
+#m_excelWebRenderer_ewaCtl_contentAreaDiv {
+ bottom: 0 !important;
+}
+#m_excelWebRenderer_ewaCtl_m_sheetTabBar {
+ width: 50%;
+}
+.ewa-stb-tabs {
+ padding-right: 55px;
+}
+.ewa-stb-navareaextra {
+ position: relative !important;
+}
+.ewa-stb-contentarea {
+ width: auto !important;
+}
+    
 }
