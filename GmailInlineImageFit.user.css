@@ -2,7 +2,7 @@
 @name         Gmail Inline Image Fit
 @description  Adapted from https://github.com/igorsantos07/Gmail-Inline-Image-Fit
 @author       https://github.com/kibeb
-@version      1.0.1
+@version      1.0.2
 @namespace    https://github.com/kibeb/Styles
 @homepageURL  https://github.com/kibeb/Styles
 @updateURL    https://kibeb.github.io/Styles/GmailInlineImageFit.user.css
@@ -11,7 +11,7 @@
 
 @-moz-document domain("mail.google.com") {
   
-  .h7 img:not([role=button]):not([role=menu]):not([width]) {
+  .h7 img:not([role=button]):not([role=menu]):not([width]):not(.ajT) {
     max-width: 100%;
     width: auto !important;
     height: auto !important;
