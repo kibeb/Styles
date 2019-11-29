@@ -21,7 +21,8 @@ Some of my styles I use with an user style sheet app.
 
 ## Stylus -- the app
 
-Install Stylus in Chrome: https://chrome.google.com/webstore/detail/stylus/clngdbkpkpeebahjckkjfobafhncgmne
+Install Stylus in Chrome: 
+[https://chrome.google.com/webstore/detail/stylus/…](https://chrome.google.com/webstore/detail/stylus/clngdbkpkpeebahjckkjfobafhncgmne)
 
 [More info on Stylus and links to install in other browsers](https://add0n.com/stylus.html).
 
