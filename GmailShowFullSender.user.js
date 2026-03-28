@@ -1,9 +1,11 @@
 // ==UserScript==
 // @name        Gmail: Show full sender email addresses
 // @description Based on https://openuserjs.org/install/gauda/Gmail_always_show_full_email_address.user.js
-// @version     3.0.1
+// @version     3.0.2
 // @licence     MIT
 // @namespace   https://github.com/kibeb/Styles
+// @homepageURL https://github.com/kibeb/Styles
+// @updateURL   https://kibeb.github.io/Styles/GmailShowFullSender.user.js
 // @include     https://mail.google.com/mail/*
 // @run-at      document-end
 // ==/UserScript==
